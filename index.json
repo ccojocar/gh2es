@@ -1,0 +1,23 @@
+{
+    "mappings": {
+        "properties": {
+            "type": {"type": "keyword"},
+            "id": { "type": "long" },
+            "number": { "type": "keyword" },
+            "title": { "type": "text" },
+            "state": { "type": "keyword" },
+            "organisation": {"type": "keyword"},
+            "repository": { "type": "keyword" },
+            "labels": { "type": "keyword" },
+            "body": { "type": "text" },
+            "comments": { "type": "long" },
+            "user_login": { "type": "keyword" },
+            "assignee": { "type": "keyword" },
+            "closed_by": { "type": "keyword" },
+            "created_at": { "type": "date" },
+            "close_at": { "type": "date" },
+            "updated_at": { "type": "date" },
+            "url": { "type": "text" }
+        }
+    }
+}
